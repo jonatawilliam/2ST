@@ -1,4 +1,6 @@
 ## README
+### Versão do Projeto - v_1.2.0
+
 
 ## Projeto de software Klassic da empresa 2ST.
 
