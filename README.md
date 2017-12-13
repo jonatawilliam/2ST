@@ -1,11 +1,11 @@
 ## README
 
-### Projeto de software Klassic da empresa 2ST.
+## Projeto de software Klassic da empresa 2ST.
 
 
 
 
-#### Guideline
+### Guideline
 
 Este passo a passo referece a integração do novo colaborador afim do mesmo conseguir instalar o ambiente de desenvolvimento que a empresa adota e posteriormente conseguir colocar em prática este documento de Gerenciamento de Configuração de Software, que trás todos requisitos e passos necessários para compreensão e fluidez do processo de desenvolvimento.
 
@@ -84,12 +84,12 @@ sudo psql -U postgres -d aula -a -f Scripts/Database.txt
 Obs: Certifique-se que dentro do arquivo src/main/resources/META-INF/persistence.xml as propriedades jdbc.user e jdbc.password estejam corretas de acordo com o seu banco de dados.
 
 
-#### Baseline
+### Baseline
 
 Como mencionado anteriormente a branch principal de cada produto de software terá como rótulo ”master”, esta é a baseline padrão onde manterão controle de versões seguindo as nomenclaturas adotadas.
 Em caso de branch gerada ao cliente, esta apresentará a nomenclatura padrão acrescida de uma quarta casa decimal para controle de customização, assim, esta branch continua sendo monitorada pela versão ”master”podendo receber suas atualizações, e é possível controlar as versão de customização do cliente especifico.
 
-#### Nomenclatura de versões
+### Nomenclatura de versões
 
 Será utilizado da seguinte forma:
 •	Version : Utilizado para informar qual versão encontra se o produto.
@@ -98,7 +98,7 @@ Será utilizado da seguinte forma:
 •	Customize : Alterado sempre que uma customização especifica de uma cliente é feita. Utilizada apenas em branch de clientes e não na ”master”. Exemplo: master 1.1.1 ou cliente A 1.4.10.3
 
 
-#### Padrão de Commit
+### Padrão de Commit
 
 Os ”commit”devem seguir um padrão afim de tornar mais fácil a compreensão e integração por parte de novos colaboradores, deixando claro e resumido a alteração aplicada.
 
