@@ -1,3 +1,9 @@
+%%% LaTeX Template: Two column article
+%%%
+%%% Source: http://www.howtotex.com/
+%%% Feel free to distribute this template, but please keep to referal to http://www.howtotex.com/ here.
+%%% Date: February 2011
+
 %%% Preamble
 \documentclass[	DIV=calc,%
 							paper=a4,%
@@ -18,7 +24,6 @@
 \usepackage{fix-cm}													% Custom fontsizes
 \usepackage[utf8]{inputenc}
 \usepackage{xcolor}
-\usepackage{natbib}
 \usepackage[top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry}
 \usepackage[ddmmyyyy]{datetime}
 \addto\captionsenglish{%
@@ -128,7 +133,7 @@
 %% mude o resumo  do projeto
 %% ====================================
 %% ====================================
-\initial{P}\textbf{lano de Gerenciamento de Configuração de Softwareda 2ST visa especificar o processo para controle de versões, atualizações, distribuições e correções (bugs) relacionado aos produtos de software Klassic da empresa 2ST. Incluso a este documento um guia passo a passo (guideline) de integração a novos desenvolvedores, assim ambientando de forma prática e eficaz as rotinas e processos do desenvolvimento do produto.}
+\initial{P}\textbf{lano de Gerenciamento de Configuração de Softwareda 2ST visa especificar o processo para controle de versões, atualizações, distribuições e correções (bugs) relacionado aos produtos de software Klassic da empresa 2ST. Incluso a este documento um guia passo a passo (guideline) de integração a novos desenvolvedores, assim ambientando de forma prática e eficaz as rotinas e processos do desenvolvimento do produto. O projeto e documentação está no link: \textcolor{blue}{https://github.com/jonatawilliam/2ST.git}}
 
 %% ====================================
 \begin{figure}
@@ -161,7 +166,7 @@
 %% ====================================
 \section{Introdução}
 \paragraph{}
-O Gerenciamento de Configuração de Software é parte da Engenharia de Software e contém um conjunto de atividades de apoio ao desenvolvimento onde permite que as mudanças inerentes sejam absorvidas pelo projeto de maneira controlada, mantendo a estabilidade na evolução do software, pois mudanças durante o desenvolvimento são inevitáveis.
+O Gerenciamento de Configuração de Software é parte da Engenharia de Software e contém um conjunto de atividades de apoio ao desenvolvimento onde permite que as mudanças inerentes sejam absorvidas pelo projeto de maneira controlada, mantendo a estabilidade na evolução do software, pois mudanças durante o desenvolvimento são inevitáveis \cite{pressman1995engenharia}.
 \paragraph{}
 Sendo assim, o objetivo deste documento  é especificar o processo de Gerência de Configuração de Software da empresa 2ST, referente o produto Klassic, afim de atender o mercado que busca por maior qualidade e produtividade no processo de desenvolvimento. Foram criados processos para controlar novas versões, atualizações, correções e distribuições, além de um guia para integração de novos desenvolvedores.
 
@@ -230,8 +235,8 @@ Pode se notar a branch "master" sofrendo alterações tanto de novas funcionalid
 Por fim, a branch "master" incorporou mais algumas funcionalidades desenvolvida e fechou seu ciclo, apresentando uma nova versão da branch, o que logo foi atualizado na branch do cliente A.
 
 \begin{figure}[!h]
-	\caption{Diagrama exemplo de Controle de Versão}
 	\includegraphics[scale=0.4]{diagrama_branch}
+	\caption{Diagrama exemplo de Controle de Versão}
 \end{figure}
 
 \subsection{Padrão de Commit}
@@ -251,8 +256,8 @@ A ferramenta Waffle.io proporciona uma integração com o GitHub o que tornar ma
 Utilizando as Issues gerada para controlar todos os estados de produção da mesma, ou seja, toda movimentação do "card"até sua conclusão, desta forma, foi adotada a ferramenta Waffle.io para controlar as mudanças do produto de software da empresa.
 
 \begin{figure}[!h]
-	\caption{Waffle.io - Exemplo de Controle de Mudança utilizando a ferramenta}
 	\includegraphics[scale=0.36]{waffleio}
+	\caption{Waffle.io - Exemplo de Controle de Mudança utilizando a ferramenta}
 \end{figure}
 
 \newpage
@@ -260,7 +265,7 @@ Utilizando as Issues gerada para controlar todos os estados de produção da mes
 
 \subsection{Papéis}
 \paragraph{}
-A seguir é descrito a competência que cada membro da equipe deve seguir baseado em seu cargo, estes seguindo uma padrão mencionado na referência \cite{pressman1995engenharia}.
+A seguir é descrito a competência que cada membro da equipe deve seguir baseado em seu cargo, estes seguindo uma padrão mencionado na referência \cite{haumer2007eclipse}.
 \paragraph{}
 Os papéis e suas atribuições são:
 
@@ -367,6 +372,7 @@ Acesse a branch de desenvolvimento desejada, ex:
 Insira os repositórios do Java.
 \paragraph{}
 \textbf{\colorbox{Silver}{sudo apt-get install python-software-properties}}
+\paragraph{}
 \textbf{\colorbox{Silver}{sudo add-apt-repository ppa:webupd8team/java}}
 \paragraph{}
 Atualize o OS.
@@ -385,9 +391,11 @@ Instale o Maven:
 Instale as dependências do projeto através do Maven:
 \paragraph{}
 \textbf{\colorbox{Silver}{mvn dependency:go-offline}}
+\paragraph{}
 \textbf{\colorbox{Silver}{mvn install}}
 \paragraph{}
 \textbf{\colorbox{Silver}{mvn dependency:go-offline}}
+\paragraph{}
 \textbf{\colorbox{Silver}{mvn install}}
 \subsubsection{Instalando SGBD e configurando Banco de Dados}
 \paragraph{}
@@ -412,16 +420,10 @@ A partir deste ponto, segue se todos os processos descritos anteriormente neste 
 \paragraph{}
 No repositório do GitHub está descritos a Guideline com todos os pontos chaves deste documento no que se refere ao papel do desenvolvedor, assim possibilitando ao novo colaborado ter mais uma fonte de informações sobre como proceder com o seu trabalho e ao colaborado que faz parte da empresa, consultar sempre que necesário.
 
-
 \newpage
 \section{Referências bibliográficas}
 \bibliographystyle{ieeetr}
 \bibliography{referencias} 
-
-
-
-
-
 
 \end{document}
 

@@ -1,0 +1,11 @@
+\begin{thebibliography}{1}
+
+\bibitem{pressman1995engenharia}
+R.~S. Pressman, {\em Engenharia de software}, vol.~6.
+\newblock Makron books Sao Paulo, 1995.
+
+\bibitem{haumer2007eclipse}
+P.~Haumer, ``Eclipse process framework composer,'' {\em Eclipse Foundation},
+  2007.
+
+\end{thebibliography}

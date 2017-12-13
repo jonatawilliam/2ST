@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.11)  13 DEC 2017 17:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.11)  13 DEC 2017 19:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -776,13 +776,6 @@ File: ts1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/natbib/natbib.sty
-Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip67
-\bibsep=\skip68
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count117
-)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
@@ -793,9 +786,9 @@ Package ifvtex Info: VTeX not detected.
 (/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count118
-\Gm@cntv=\count119
-\c@Gm@tempcnt=\count120
+\Gm@cnth=\count117
+\Gm@cntv=\count118
+\c@Gm@tempcnt=\count119
 \Gm@bindingoffset=\dimen137
 \Gm@wd@mp=\dimen138
 \Gm@odd@mp=\dimen139
@@ -811,7 +804,7 @@ Package: datetime 2015/03/20 v2.60 Date Time Package
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count121
+\etb@tempcnta=\count120
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fmtcount/fmtcount.sty
 Package: fmtcount 2015/05/05 v3.01
@@ -827,7 +820,7 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@toks=\toks30
 \XKV@tempa@toks=\toks31
 )
-\XKV@depth=\count122
+\XKV@depth=\count121
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fmtcount/fcprefix.sty
@@ -835,42 +828,42 @@ Package: fcprefix 2012/09/28
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
 Package: fcnumparser 2012/09/28
-\fc@digit@counter=\count123
+\fc@digit@counter=\count122
 ))
-\c@padzeroesN=\count124
-\fc@tmpcatcode=\count125
+\c@padzeroesN=\count123
+\fc@tmpcatcode=\count124
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fmtcount/fc-portuges.def
 File: fc-portuges.def 2014/06/09
 )
-\@DT@modctr=\count126
-\@ordinalctr=\count127
-\@orgargctr=\count128
-\@strctr=\count129
-\@tmpstrctr=\count130
-\@DT@loopN=\count131
-\@DT@X=\count132
+\@DT@modctr=\count125
+\@ordinalctr=\count126
+\@orgargctr=\count127
+\@strctr=\count128
+\@tmpstrctr=\count129
+\@DT@loopN=\count130
+\@DT@X=\count131
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/datetime/datetime-defaults.sty
 Package: datetime-defaults 2013/09/10
 )
-\@day=\count133
-\@month=\count134
-\@year=\count135
-\c@HOUR=\count136
-\c@HOURXII=\count137
-\c@MINUTE=\count138
-\c@TOHOUR=\count139
-\c@TOMINUTE=\count140
-\c@SECOND=\count141
-\currenthour=\count142
-\currentminute=\count143
-\currentsecond=\count144
+\@day=\count132
+\@month=\count133
+\@year=\count134
+\c@HOUR=\count135
+\c@HOURXII=\count136
+\c@MINUTE=\count137
+\c@TOHOUR=\count138
+\c@TOMINUTE=\count139
+\c@SECOND=\count140
+\currenthour=\count141
+\currentminute=\count142
+\currentsecond=\count143
 Package datetime Info: No datetime.cfg file found, using default settings on in
 put line 308.
-\@dtctr=\count145
-\dayofyear=\count146
-\dayofweek=\count147
+\@dtctr=\count144
+\dayofyear=\count145
+\dayofweek=\count146
 LaTeX Info: Redefining \today on input line 736.
 \dt@a=\toks32
 \dt@b=\toks33
@@ -885,35 +878,35 @@ Class scrartcl Warning: Usage of package `fancyhdr' together
 (scrartcl)              I'd suggest to use 
 (scrartcl)              package `scrlayer-scrpage'.
 (scrartcl)              Nevertheless, using requested
-(scrartcl)              package `fancyhdr' on input line 43.
+(scrartcl)              package `fancyhdr' on input line 48.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
-\fancy@headwidth=\skip69
-\f@ncyO@elh=\skip70
-\f@ncyO@erh=\skip71
-\f@ncyO@olh=\skip72
-\f@ncyO@orh=\skip73
-\f@ncyO@elf=\skip74
-\f@ncyO@erf=\skip75
-\f@ncyO@olf=\skip76
-\f@ncyO@orf=\skip77
+\fancy@headwidth=\skip67
+\f@ncyO@elh=\skip68
+\f@ncyO@erh=\skip69
+\f@ncyO@olh=\skip70
+\f@ncyO@orh=\skip71
+\f@ncyO@elf=\skip72
+\f@ncyO@erf=\skip73
+\f@ncyO@olf=\skip74
+\f@ncyO@orf=\skip75
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lastpage/lastpage.sty
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lettrine/lettrine.sty
 File: lettrine.sty 2015/08/31 v1.9 (Daniel Flipo)
-\c@DefaultLines=\count148
-\c@DefaultDepth=\count149
+\c@DefaultLines=\count147
+\c@DefaultDepth=\count148
 \DefaultFindent=\dimen145
 \DefaultNindent=\dimen146
 \DefaultSlope=\dimen147
 \DiscardVskip=\dimen148
 \L@lbox=\box30
 \L@tbox=\box31
-\c@L@lines=\count150
-\c@L@depth=\count151
+\c@L@lines=\count149
+\c@L@depth=\count150
 \L@Pindent=\dimen149
 \L@Findent=\dimen150
 \L@Nindent=\dimen151
@@ -931,27 +924,27 @@ Loading lettrine.cfg
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lettrine/lettrine.cfg))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/titling/titling.sty
 Package: titling 2009/09/04 v2.1d maketitle typesetting
-\thanksmarkwidth=\skip78
-\thanksmargin=\skip79
-\droptitle=\skip80
+\thanksmarkwidth=\skip76
+\thanksmargin=\skip77
+\droptitle=\skip78
 ) (./T2.aux)
 \openout1 = `T2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Info: Redefining \microtypecontext on input line 117.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Info: Redefining \microtypecontext on input line 122.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -968,16 +961,16 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 )
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count152
+\scratchcounter=\count151
 \scratchdimen=\dimen161
 \scratchbox=\box32
-\nofMPsegments=\count153
-\nofMParguments=\count154
+\nofMPsegments=\count152
+\nofMParguments=\count153
 \everyMPshowfont=\toks34
-\MPscratchCnt=\count155
+\MPscratchCnt=\count154
 \MPscratchDim=\dimen162
-\MPnumerator=\count156
-\makeMPintoPDFobject=\count157
+\MPnumerator=\count155
+\makeMPintoPDFobject=\count156
 \everyMPtoPDFconversion=\toks35
 )
 Package caption Info: Begin \AtBeginDocument code.
@@ -1020,8 +1013,8 @@ Package caption Info: End \AtBeginDocument code.
 
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 117.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 118.
+(lastpage)             ! on input line 122.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 123.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
@@ -1038,7 +1031,7 @@ Package microtype Info: Loading generic settings for font family
 <utfpr.jpeg, id=1, 97.36375pt x 35.13126pt>
 File: utfpr.jpeg Graphic file (type jpg)
  <use utfpr.jpeg>
-Package pdftex.def Info: utfpr.jpeg used on input line 136.
+Package pdftex.def Info: utfpr.jpeg used on input line 141.
 (pdftex.def)             Requested size: 97.3635pt x 35.13115pt.
  [1
 
@@ -1051,10 +1044,10 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 144.
+ne 149.
 
 Package tocbasic Info: character protrusion at lof deactivated on input line 14
-4.
+9.
 (./T2.lof
 LaTeX Font Info:    Try loading font information for U+msa on input line 2.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1081,10 +1074,10 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 147.
+ne 152.
 
-Package tocbasic Info: character protrusion at lot deactivated on input line 14
-7.
+Package tocbasic Info: character protrusion at lot deactivated on input line 15
+2.
 (./T2.lot)
 \tf@lot=\write4
 \openout4 = `T2.lot'.
@@ -1093,13 +1086,13 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 152.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 157.
 
  (/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 152.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 157.
 
 [2
 
@@ -1110,10 +1103,10 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 154.
+ne 159.
 
 Package tocbasic Info: character protrusion at toc deactivated on input line 15
-4.
+9.
 (./T2.toc)
 \tf@toc=\write5
 \openout5 = `T2.toc'.
@@ -1122,7 +1115,7 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 15
 
 ]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 177.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 182.
  [4
 
 ] (./tabela-ferramentas.tex) [5]
@@ -1130,10 +1123,10 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 File: diagrama_branch.png Graphic file (type png)
 
 <use diagrama_branch.png>
-Package pdftex.def Info: diagrama_branch.png used on input line 234.
+Package pdftex.def Info: diagrama_branch.png used on input line 238.
 (pdftex.def)             Requested size: 478.17802pt x 209.1778pt.
 
-Overfull \hbox (22.93385pt too wide) in paragraph at lines 234--235
+Overfull \hbox (22.93385pt too wide) in paragraph at lines 238--239
 [][] 
  []
 
@@ -1141,36 +1134,30 @@ Overfull \hbox (22.93385pt too wide) in paragraph at lines 234--235
 File: waffleio.png Graphic file (type png)
 
 <use waffleio.png>
-Package pdftex.def Info: waffleio.png used on input line 255.
+Package pdftex.def Info: waffleio.png used on input line 259.
 (pdftex.def)             Requested size: 458.5528pt x 193.68344pt.
 
-Overfull \hbox (3.30862pt too wide) in paragraph at lines 255--256
+Overfull \hbox (3.30862pt too wide) in paragraph at lines 259--260
 [][] 
  []
 
-[7 <./waffleio.png>]
+[7 <./waffleio.png>] [8] [9] [10] [11] [12] [13] (./T2.bbl
 
-Package natbib Warning: Citation `pressman1995engenharia' on page 8 undefined o
-n input line 263.
+Class scrartcl Warning: incompatible usage of \@ssect detected.
+(scrartcl)              You've used the KOMA-Script implementation of \@ssect
+(scrartcl)              from within a non compatible caller, that does not
+(scrartcl)              \scr@s@ct@@nn@m@ locally.
+(scrartcl)              This could result in several error messages on input li
+ne 1.
 
-[8] [9] [10]
-Overfull \hbox (131.44186pt too wide) in paragraph at lines 369--371
-[] [] [][][][][][] [][][][][][] 
- []
-
-[11] [12]
-No file T2.bbl.
-
-Package natbib Warning: There were undefined citations.
-
-
+) 
 AED: lastpage setting LastPage
-[13] (./T2.aux) ) 
+[14] (./T2.aux) ) 
 Here is how much of TeX's memory you used:
- 11923 strings out of 492995
- 188501 string characters out of 6132703
- 510413 words of memory out of 5000000
- 15136 multiletter control sequences out of 15000+600000
+ 11599 strings out of 492995
+ 184614 string characters out of 6132703
+ 504890 words of memory out of 5000000
+ 14814 multiletter control sequences out of 15000+600000
  27357 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  54i,11n,77p,8813b,470s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1189,10 +1176,10 @@ local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/l
 ocal/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/te
 xlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/
 2017/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on T2.pdf (13 pages, 277532 bytes).
+Output written on T2.pdf (14 pages, 280849 bytes).
 PDF statistics:
- 110 PDF objects out of 1000 (max. 8388607)
- 75 compressed objects within 1 object stream
+ 113 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  29200 words of extra memory for PDF output out of 29859 (max. 10000000)
 
