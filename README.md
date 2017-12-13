@@ -18,67 +18,67 @@ Ubuntu 16.04 LTS
 
 •	Atualize seu OS:
 ```sh
-  	sudo apt update
-	```
+sudo apt update
+```
 
 •	Comando para instalar o Git
 ```sh
-  	sudo apt-get install git
-	```
+sudo apt-get install git
+```
 
 ##### Clonar repositório do software Klassic
 Git Clone:
 ```sh
-  git clone https://github.com/jonatawilliam/2ST/klassic.git
+git clone https://github.com/jonatawilliam/2ST/klassic.git
 ```
 
 ##### Acesse o diretório clonado:
 ```sh
-  cd klassic
+cd klassic
 ```
 ##### Acesse a branch de desenvolvimento desejada, ex:
 ```sh
-  git checkout 1.0.0
+git checkout 1.0.0
 ```
 
 ##### Instalando Java
 Insira os repositórios do Java.
 •	Atualize o OS.
 ```sh
-  	sudo apt-get update
- 	sudo apt-get install python-software-properties
-  	sudo add-apt-repository ppa:webupd8t
+sudo apt-get update
+sudo apt-get install python-software-properties
+sudo add-apt-repository ppa:webupd8t
 ```
 •	Insira os comandos no terminal para instalar a máquina Java
 ```sh
-  	sudo apt-get install oracle-java8-installer
+sudo apt-get install oracle-java8-installer
 ```
 ##### Instalando Maven
 Instale o Maven:
 ```sh
-  sudo apt-get install maven
+sudo apt-get install maven
 ```
 •	Instale as dependências do projeto através do Maven:
 ```sh
-  	mvn dependency:go-offline
-  	mvn install
+mvn dependency:go-offline
+mvn install
 ```
 
 ##### Instalando SGBD e configurando Banco de Dados
 
 Instale o SGBD PostgreSql:
 ```sh
-  sudo apt-get install postgresql postgresql-contrib
+sudo apt-get install postgresql postgresql-contrib
 ```
 
 ##### Cria a database:
 ```sh
-  sudo psql -U postgres -c ’CREATE DATABASE klassic;
+sudo psql -U postgres -c ’CREATE DATABASE klassic;
 ```
 
 ##### Inicialize o banco:
 ```sh
-  sudo psql -U postgres -d aula -a -f Scripts/Database.txt
+sudo psql -U postgres -d aula -a -f Scripts/Database.txt
 ```
 
 Obs: Certifique-se que dentro do arquivo src/main/resources/META-INF/persistence.xml as propriedades jdbc.user e jdbc.password estejam corretas de acordo com o seu banco de dados.
