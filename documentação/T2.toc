@@ -1,0 +1,29 @@
+\select@language {brazil}
+\contentsline {section}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{4}
+\contentsline {section}{\numberline {2}Estado atual}{4}
+\contentsline {section}{\numberline {3}Requisitos}{4}
+\contentsline {section}{\numberline {4}Ferramentas}{5}
+\contentsline {section}{\numberline {5}Controle de Vers\IeC {\~a}o}{5}
+\contentsline {subsection}{\numberline {5.1}Reposit\IeC {\'o}rio}{5}
+\contentsline {subsection}{\numberline {5.2}Baseline}{5}
+\contentsline {subsection}{\numberline {5.3}Nomenclatura de vers\IeC {\~o}es}{5}
+\contentsline {subsection}{\numberline {5.4}Diagrama}{6}
+\contentsline {subsection}{\numberline {5.5}Padr\IeC {\~a}o de Commit}{6}
+\contentsline {section}{\numberline {6}Controle de Mudan\IeC {\c c}as}{7}
+\contentsline {section}{\numberline {7}Processos}{8}
+\contentsline {subsection}{\numberline {7.1}Pap\IeC {\'e}is}{8}
+\contentsline {subsection}{\numberline {7.2}Novas Distribui\IeC {\c c}\IeC {\~a}o}{8}
+\contentsline {subsection}{\numberline {7.3}Corre\IeC {\c c}\IeC {\~o}es de bugs}{9}
+\contentsline {subsection}{\numberline {7.4}Nova Funcionalidade}{9}
+\contentsline {subsection}{\numberline {7.5}Nova Vers\IeC {\~a}o}{10}
+\contentsline {section}{\numberline {8}Auditoria}{10}
+\contentsline {section}{\numberline {9}Guideline}{11}
+\contentsline {subsection}{\numberline {9.1}Ambiente de desenvolvimento}{11}
+\contentsline {subsubsection}{\numberline {9.1.1}Depend\IeC {\^e}ncias}{11}
+\contentsline {subsubsection}{\numberline {9.1.2}Instala\IeC {\c c}\IeC {\~a}o do Git}{11}
+\contentsline {subsubsection}{\numberline {9.1.3}Clonar reposit\IeC {\'o}rio do software Klassic}{11}
+\contentsline {subsubsection}{\numberline {9.1.4}Instalando Java}{11}
+\contentsline {subsubsection}{\numberline {9.1.5}Instalando Maven}{12}
+\contentsline {subsubsection}{\numberline {9.1.6}Instalando SGBD e configurando Banco de Dados}{12}
+\contentsline {subsubsection}{\numberline {9.1.7}Pr\IeC {\'o}ximo passo}{12}
+\contentsline {section}{\numberline {10}Refer\IeC {\^e}ncias Bibliogr\IeC {\'a}ficas}{13}
